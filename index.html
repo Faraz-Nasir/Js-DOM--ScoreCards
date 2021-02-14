@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <main >
+            <div class="img-container">
+               <img src="nils-schirmer-hdHMZumzLTo-unsplash.jpg" alt="img-not-available" class="img-container"> 
+            </div>
+            <div id="card-header">
+                <h1>PingPong Score Keeper</h1>
+            </div>
+            <section id="score-section">
+                <p id="score">
+                    <span id="player1">0</span>
+                    to
+                    <span id="player2">0</span>
+                </p>
+                <p id="sub-header">Use the buttons to keep score</p>
+                <div class="playing-to">
+                    Playing To
+                    <select name="score-max" id="score-max">
+                        <option >Select One</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                    </select>
+                </div>
+            </section>
+            <div class="btns">
+                <button id="player1-btn">+1 Player1</button>
+                <button id="player2-btn">+1 Player2</button>
+                <button id="reset-btn">Reset</button>
+            </div>
+        </main>
+        <script src="app.js"></script>
+</body>
+</html>

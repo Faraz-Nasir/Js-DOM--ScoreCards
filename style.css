@@ -1,0 +1,34 @@
+.img-container{
+    width: auto;
+    height: 10rem;
+}
+body{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+}
+main{
+    
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    
+    width: auto;   
+}
+#card-header{
+    
+    width: 100%;
+}
+#score-section{
+    width: 100%;
+    margin-bottom: 15%;
+}
+#score{
+    
+    font-size: 120%;
+}
